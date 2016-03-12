@@ -82,4 +82,4 @@ production:
   <<: *default
   database: railsapp_production
   username: railsapp
-  password: zd28rigo96
+  password: <%= ENV['RAILSAPP_DATABASE_PASSWORD'] %>
