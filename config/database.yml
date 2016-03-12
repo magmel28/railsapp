@@ -83,3 +83,4 @@ production:
   database: railsapp_production
   username: railsapp
   password: <%= ENV['RAILSAPP_DATABASE_PASSWORD'] %>
+  host: localhost
